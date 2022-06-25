@@ -4,12 +4,7 @@
 
 
 
-In this project I'm building an end to end deep learning model that load CT data files to produce
-a Ct instance that contains the full 3D scan, combine that with a module that performs segmentation (flagging voxels of interest),
-and then group the interesting voxels into small lumps in the search for candidate nodules.
-The nodule locations are combined back with the CT voxel data to produce nodule candidates,
-which can then be examined by our nodule classification model to determine whether they are actually nodules in the first place and,
-eventually, whether they’re malignant.
+In this project, I'm building an end-to-end deep learning model that loads CT data files to produce a Ct instance that contains the full 3D scan, combines that with a module that performs segmentation (flagging voxels of interest), and then group the interesting voxels into small lumps in the search for candidate nodules. The nodule locations are combined back with the CT voxel data to produce nodule candidates, which can then be examined by our nodule classification model to determine whether they are actually nodules in the first place and, eventually, whether they’re malignant.
 
 ## Setup
 
